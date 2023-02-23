@@ -38,7 +38,7 @@ async function renderBooks(filter) {
     </div>
 </div>`;
   })
-    .join(""); // this line joins the array instead of separating it by commas
+  .join(""); // this line joins the array instead of separating it by commas
 
   booksWrapper.innerHTML = booksHtml;
 }
